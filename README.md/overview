@@ -1,3 +1,0 @@
-An embedded vehicle dashboard simulation system developed using two LPC2129 ARM7 microcontrollers communicating through the Controller Area Network (CAN) protocol.
-
-The system uses a transmitter node to collect vehicle-related parameters from sensors and switches, packs the data into CAN frames, and transmits them to a receiver node. The receiver decodes the CAN messages and displays the vehicle parameters through a UART terminal.
