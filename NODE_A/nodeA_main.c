@@ -15,7 +15,7 @@ CAN1 v1;
 
 int main(){
         IODIR0|=(1<<17)|(1<<22)|(1<<23)|(1<<24); //output pins
-        IOSET0=(1<<22)|(1<<23)|(1<<24);
+        IOSET0=(1<<22)|(1<<23)|(1<<24);//intially off 
         can1_init();
         adc_init();
         uart0_init(9600);
