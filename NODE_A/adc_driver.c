@@ -27,3 +27,4 @@ u32 ultrasonic_read(void){
         T1TCR=0;
         time=T1TC;
         return (u32)(time/58);//in cm
+}
